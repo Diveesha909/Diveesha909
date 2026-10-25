@@ -26,7 +26,7 @@ I enjoy building data and ML systems that move beyond experimentation into relia
 ### ChatECL
 AI research platform for an education research lab at the Wisconsin Center for Education Research. I'm the AI Technical Lead.
 
-- Faster transcription:** compared models on quality, then moved transcription to Google Gemini, cutting turnaround from ~40 minutes to 2–3 minutes per interview
+- Faster transcription: compared models on quality, then moved transcription to Google Gemini, cutting turnaround from ~40 minutes to 2–3 minutes per interview
 - Structured data from documents: turned ~600 interview documents into a PostgreSQL data model using Python, SQL, and LLMs
 - RAG pipeline: Helping maintain a retrieval-augmented generation with Pinecone vector search so researchers can ask questions about their interview data
 - Safe data access: built a read-only SQL tool so the AI assistant can query data without being able to change it
