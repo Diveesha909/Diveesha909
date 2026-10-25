@@ -7,7 +7,6 @@ I enjoy building data and ML systems that move beyond experimentation into relia
 ## Currently
 
 - **Technical Lead, WISCURDS / ChatECL @ Wisconsin Center for Education Research**
-- **Undergraduate Research Assistant @ Applied Population Lab**
 - Exploring full-time opportunities in **Data Science, Data Analytics, Applied AI, Product Analytics, and ML/Data Systems**
 
 ## Tech
@@ -25,13 +24,14 @@ I enjoy building data and ML systems that move beyond experimentation into relia
 ## Featured Work
 
 ### ChatECL
-AI-powered research platform supporting qualitative analysis and social network analysis.
+AI research platform for an education research lab at the Wisconsin Center for Education Research. I'm the AI Technical Lead.
 
-- Work across machine learning, backend development, data tooling, and platform infrastructure
-- Built an end-to-end transcription workflow using **Whisper and speaker diarization**
-- Helped reduce transcription turnaround from multiple days to hours
-- Contribute to a large collaborative codebase through development, debugging, code review, and technical ownership
-- Focus on integrating ML workflows into reliable production-style systems
+- Faster transcription:** compared models on quality, then moved transcription to Google Gemini, cutting turnaround from ~40 minutes to 2–3 minutes per interview
+- Structured data from documents:** turned ~600 interview documents into a PostgreSQL data model using Python, SQL, and LLMs
+- RAG pipeline:** Helping maintain a retrieval-augmented generation with Pinecone vector search so researchers can ask questions about their interview data
+- Safe data access:** built a read-only SQL tool so the AI assistant can query data without being able to change it
+- Shipping:** own the platform and ship features (transcript editing, speaker labeling) through CI/CD
+- In progress:** a district-comparison dashboard on a staged Google Cloud pipeline, with least-privilege access and a cloud cost model
 
 ### ACSest
 Open-source tooling for retrieving and analyzing American Community Survey data through the U.S. Census Bureau API.
